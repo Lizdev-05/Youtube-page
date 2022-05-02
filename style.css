@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.global{
+    background-color:#f8f8f8 ;
+   font-family: 'Roboto', sans-serif;
+  
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 26px;
+    padding: 20px;
+  
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.fa-youtube{
+    color: red;
+}
+
+.youtube-text{
+  
+    font-weight: 700;
+}
+
+.center{
+    display: flex;
+    width: 50%;
+}
+
+.bar {
+    background-color: #f8f8f8;
+    width: 80%;
+    margin: 0;
+   
+ }
+ 
+ .bar input{
+     height: 100%;
+     width: 100%;
+     padding: 10px;
+ }
+ 
+ .center .fa-magnifying-glass{
+     background-color: #f8f8f8;
+     padding: 10px;
+ }
+ 
+ .center .fa-microphone{
+     margin-left: 20px;
+     padding: 10px;
+     background-color:#f8f8f8;
+     border-radius: 50px;
+     text-align: center;
+    
+ }
+ 
+ 
+ 
+ .right {
+     align-items: center;
+     font-size: 26px;
+     margin-right: 20px;
+ }
+ 
+ .right i{
+    
+     margin-left: 20px;
+     text-align: center;
+ }
+ 
+ .right .grid{
+     margin-bottom: 8px;
+ }
+ 
+ .fa-circle-user{
+     color: rgb(39, 39, 207);
+ }
+
+
+/* container */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+   
+}
+
+
+.main{
+    margin: 20px;
+   width: 70%;
+}
+
+.main iframe{
+  width: 100%;
+  height: 65vh;  
+}
+
+
+.like-section{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+   
+}
+
+.like i{
+    margin-left: 10px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.like{
+    font-size: 20px;
+}
+
+.aside{
+   margin-top: 20px;
+   width: 30%;
+  
+  
+}
+
+.div-5 iframe{
+    width: 65%;
+}
+
+ .div-5{
+    display: flex;
+    width: 30vw;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+ .div-5 span{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.div-5 p{
+    position: absolute;
+    bottom: -5px;
+}
+
+.response-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.response-bar .ninja-logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.subscriber{
+    margin-left: 10px;
+}
+
+.subscriber h3{
+  font-size: 18px;
+font-weight: bolder;
+color: #000;
+}
+
+.main .join{
+    background-color:#f8f8f8 ;
+    padding: 8px 30px;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.main .subscribe{
+    padding: 8px 30px;
+   border: none;
+    font-weight: 600;
+   
+}
+
+.one{
+    font-size: 24px;
+    margin-left: 2px;
+}
+
+.video-caption{
+    font-size: 20px;
+}
+
+.more{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment{
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.comment-no{
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.user{
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.user input{
+    width: 95%;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color:  #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.user .fa-circle-user{
+    font-size: 28px;
+    
+}
+
+ .btn{
+   
+    position: absolute;
+    right: 0;
+ 
+   
+}
+
+.btn button{
+    padding: 7px 20px;
+    border: none;
+}
+
+.btn-1{
+    background-color:#f8f8f8 ;
+}
+
+
+.user-1{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.user-1 img{
+    border-radius: 50px;
+}
+
+.user-1 .image{
+    margin-right: 20px;
+}
+
+.commenter-detail h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.commenter-detail span{
+    font-weight: 200;
+}
+
+.commenter-likee i, .commenter-likee span{
+    margin-right: 20px;
+}
+.commenter-likee .reply{
+    font-weight: 600;
+    color: #000;
+}
+
+.categories button{
+    padding:8px 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.categories > .btn-1{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer{
+   margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.footer span{
+    color: rgb(255, 94, 0);
+}
+   
+
+/* Responsiveness */
+
+@media screen and (max-width: 1450px){
+
+
+
+    .container{
+        width: 100%;
+        
+    }
+
+    .main{
+        margin-left: 0 !important;
+    }
+    .div-5{
+        display: block;
+       margin-bottom: 10px;
+       margin-left: 0 !important;
+       
+    }
+
+   
+    .div-5 p{
+        display: none;
+    }
+
+    .right{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .container{
+        display: block;
+      margin: 0;
+ }
+    .main{
+       
+        width: 100%;
+        margin-left: 0;
+        margin: 10px 5px;
+    }
+
+    .main iframe{
+        
+        height: 350px; 
+       
+      }
+    .aside{
+        margin-top: 20px;
+        width: 100%;
+       
+       
+     }
+
+
+    .div-5{
+        display: block;
+        width: 100%;
+       margin:20px;
+        text-align: center;
+        position: relative;
+       
+    }
+
+    .div-5 span{
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+    .div-5 iframe{
+        height: 400px;
+        width: 100%;
+    }
+    
+    .user-1:nth-of-type(3),.user-1:nth-of-type(4),.user-1:nth-of-type(5), .user-1:nth-of-type(6),.user-1:nth-of-type(7),.user-1:nth-of-type(8){
+        display: none;
+    } 
+
+    .user-1 p, .user-1 i{
+        font-size: 24px;
+    }
+
+    .video-caption{
+        font-size: 24px;
+    }
+
+    .response-bar{
+        font-size: 24px;
+        
+    }
+
+    .user button, .user .fa-circle-user{
+        font-size: 24px;
+    }
+
+ 
+    .categories{
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        
+    }
+    .categories button{
+        padding:15px 25px;
+        border-radius: 20px;
+      font-size: 22px;
+        
+    }
+    
+}
+
+
+@media screen and (min-width: 750px ) and (max-device-width:920px){
+    .container{
+        display: block;
+     margin: 0 auto;
+ }
+}
+
+ @media screen and (max-width: 540px){
+    /* navbar */
+
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    
+    }
+
+    
+    
+    .left-side{
+        width: 60%;
+    }
+    
+    
+    .center{
+        display: flex;
+        width: 40%;
+    }
+    
+    .bar {
+      display: none;
+      
+    }
+    
+    .right{
+        display: none;
+    }
+
+
+    .response-bar{
+        display: block;
+    }
+
+    
+
+    .div-5 iframe{
+        height: 250px;
+      
+    }
+    
+
+  .user button{
+      display: none;
+  }
+
+  .like-section{
+      display: block;
+     
+  }
+
+  .like{
+    font-size: 18px
+  }
+
+ .like .fa-scissors, .like .fa-ellipsis, .like .clip{
+    display: none;
+} 
+
+.video-caption, .user button, .user .fa-circle-user, .response-bar, .commenter-detail p{
+    font-size: 18px;
+}
+
+.subscriber-join{
+    margin: 20px 0;
+}
+
+.join, .subscribe, .fa-bell{
+    margin-right: 15px;
+}
+
+.categories button{
+    padding:8px 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.cart{
+    display: none;
+} 
+.div-5 span{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.user input{
+    width: 85%;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color:  #f8f8f8;
+    margin-bottom: 20px;
+}
+
+ 
+}
+
+@media screen and (max-width: 375px){
+    .categories button{
+        padding:3px;
+       border-radius: 20px;
+      margin: 0;
+   
+    }
+}
+
